@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.lee.security.core.properties.SecurityProperties",
+      "name": "lee.security",
+      "type": "com.lee.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.lee.security.core.properties.SecurityProperties",
+      "name": "lee.security.browser",
+      "type": "com.lee.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.lee.security.core.properties.SecurityProperties",
+      "name": "lee.security.code",
+      "type": "com.lee.security.core.properties.ValidateCodeProperties"
+    }
+  ]
+}

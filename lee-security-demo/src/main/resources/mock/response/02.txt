@@ -1,0 +1,5 @@
+{
+    "title" : "test02",
+    "message" : "IDEA设置不折叠空文件夹",
+    "id" : "5"
+}

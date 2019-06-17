@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luckymoney?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password:
+  session:
+    store-type: none #关闭session集群管理
+server:
+  port: 8060
+security:
+  basic:
+    enabled: true #关闭springsecurity的默认配置
+
+#lee:
+#  security:
+#    browser:
+#      loginPage: /demo-signIn.html
+#      loginType: REDIRECT
+
+lee:
+  security:
+    browser:
+      loginPage: /demo-signIn.html #自定义登录页配置，应用级配置
+#      loginType: REDIRECT #登录处理是重定向还是返回包含登陆成功后信息的JSON串
+    code:
+      imageCodeProperties:
+        length: 6 #配置验证码的长度， 浏览器验证码的长度一般为4位
+        width: 100 #应用及配置，宽度
+        url: /user/1/1
+      smsCodeProperties:
+        length: 8 #短信验证码的长度，一般为6位
+        url: /user/1/1
