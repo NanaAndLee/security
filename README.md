@@ -19,6 +19,6 @@
 |代码进度|对应Tags|
 |------|------|
 |基于表单开发认证|v1.1|
-|第三方登录|v1.2|
-|SpringSocial开发第三方认证|v1.3|
-|SpringSecurityOAuth开发app认证|v1.4|
+|Spring Social 开发第三方认证|v1.2|
+|Spring Security OAuth 开发app认证|v1.3|
+|Spring Security 授权控制|v1.4|
